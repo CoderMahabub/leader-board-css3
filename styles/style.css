@@ -156,3 +156,32 @@
          border-radius: 20px;
          margin-left: 30px;
      }
+     /* ----------------------------*\
+                Media Query Starts
+     -------------------------------*/
+      /* Mobile Devices */
+      @media only screen and (max-width:688px) {
+          .container{
+              width: 100%;
+          }
+          .players, .blogs, .courses{
+            grid-template-columns: 1fr;
+            justify-content: center;
+          }
+          .player, .blog{
+            flex-direction: column;
+          }
+      }
+      /* Tablet Devices */
+      @media only screen and (min-width: 688px) and (max-width: 992px){
+          .container{
+              width: 100%;
+          }
+          .players, .courses{
+              grid-template-columns: repeat( 2, 1fr);
+              justify-content: center;
+          }
+          .blogs{
+              grid-template-columns: 1fr;
+          }
+      }
