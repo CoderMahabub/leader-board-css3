@@ -1,9 +1,13 @@
      /* GOOGLE FONTS  */
 
      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
      /* COMMON Utilities */
 
+
      body {
+         margin: 0;
+         padding: 0;
          font-family: 'Poppins', sans-serif;
          background-color: #F3F1FF;
      }
@@ -30,15 +34,53 @@
      /*---------------------*\
         Top Players
     *\-----------------------*/
+    header{
+        height: 90px;
+        background-color:#562EFF;
+    }
+    .menu-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-left{
+        display: flex;
+        align-items: center;
+    }
+    .menu-left img{
+        margin-right: 15px;
+        width: 41px;
+        height: 51px;
+    }
+    .menu-left span{
+        font-size: 24px;
+        color: #fff;
+    }
+    .menu-right{
+        display: flex;
+        align-items: center;
+    }
+    .menu-right a{
+        text-decoration: none;
+        list-style: none;
+        margin-right: 20px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .menu-right img{
+        width: 51px;
+        height: 51px;
+    }
+    /*---------------------*\
+            Top Players
+    *\-----------------------*/
 
-     .section-title {
-         color: #562EFF;
-         font-size: 24px;
-         margin-top: 3px;
-     }
-
-     .top-players {
-         margin-bottom: 30px;
+    .section-title {
+        color: #562EFF;
+        font-size: 24px;
+        margin-top: 3px;
+    }
+    .top-players {
+     margin-bottom: 30px;
      }
 
      .players {
@@ -115,7 +157,6 @@
 
      .course {
          width: 253px;
-         /* box-shadow: ; */
      }
 
      .course .course-banner img {
@@ -159,6 +200,7 @@
      /* ----------------------------*\
                 Media Query Starts
      -------------------------------*/
+
       /* Mobile Devices */
       @media only screen and (max-width:688px) {
           .container{
