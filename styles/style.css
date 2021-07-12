@@ -104,5 +104,55 @@
      }
 
      /*------------------------*\
-           Latest News Section  
+           Courses Section  
       *\------------------------*/
+
+     .courses {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-column-gap: 24px;
+     }
+
+     .course {
+         width: 253px;
+         /* box-shadow: ; */
+     }
+
+     .course .course-banner img {
+         width: 224px;
+         height: 104px;
+     }
+
+     .course-author {
+         color: #ED6B4F;
+     }
+
+     .course-info {
+         display: flex;
+         align-items: center;
+     }
+
+     .fa-star {
+         font-size: 12px;
+     }
+
+     .fa-star.filled {
+         color: #FFC014;
+     }
+
+     .fa-star.empty {
+         color: #AEAEAE;
+     }
+
+     .course-info span {
+         font-size: 12px;
+         margin-left: 10px;
+     }
+
+     .course-clock {
+         font-size: 12px;
+         color: #FF4A60;
+         background: #FFE4E8;
+         border-radius: 20px;
+         margin-left: 30px;
+     }
