@@ -34,7 +34,7 @@
      /*---------------------*\
         Top Players
     *\-----------------------*/
-    header{
+    header, footer{
         height: 90px;
         background-color:#562EFF;
     }
@@ -196,6 +196,18 @@
          background: #FFE4E8;
          border-radius: 20px;
          margin-left: 30px;
+     }
+     /* Footer Styles */
+     footer{
+         text-align: center;
+         line-height: 90px;
+         font-size: 24px;
+         color: #fff;
+     }
+     footer a{
+         color:#FFC014;
+         text-decoration: none;
+         cursor: pointer;
      }
      /* ----------------------------*\
                 Media Query Starts
