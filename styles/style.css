@@ -168,11 +168,18 @@
          width: 224px;
          height: 104px;
      }
+     
+     h3.course-title {
+        margin-bottom: 5px;
+    }
 
      .course-author {
          color: #ED6B4F;
      }
 
+     p.course-author {
+        margin-top: 0;
+    }
      .course-info {
          display: flex;
          align-items: center;
@@ -208,6 +215,7 @@
          line-height: 90px;
          font-size: 24px;
          color: #fff;
+         margin-top: 21px;
      }
      footer a{
          color:#FFC014;
