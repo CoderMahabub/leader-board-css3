@@ -38,9 +38,14 @@
         height: 90px;
         background-color:#562EFF;
     }
+    header{
+        display: flex;
+        justify-content: center;
+    }
     .menu-container{
         display: flex;
-        justify-content: space-around;
+        justify-content:space-between;
+        width: 870px;
     }
     .menu-left{
         display: flex;
